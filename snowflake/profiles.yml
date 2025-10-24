@@ -1,0 +1,23 @@
+snowflake:
+  outputs:
+    dev:
+      account: kt52839.ap-south-1.aws
+      database: DEV_EXTERNAL_TEAM_DB
+      password: SAniket4368@sa
+      role: ACCOUNTADMIN
+      schema: IDEON_RAW
+      threads: 4
+      type: snowflake
+      user: ANIKET001
+      warehouse: COMPUTE_WH
+    prod:
+      account: kt52839.ap-south-1.aws
+      database: EXTERNAL_TEAM_DB
+      password: SAniket4368@sa
+      role: ACCOUNTADMIN
+      schema: IDEON_RAW
+      threads: 4
+      type: snowflake
+      user: ANIKET001
+      warehouse: COMPUTE_WH
+  target: dev
