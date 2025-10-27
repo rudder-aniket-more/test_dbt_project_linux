@@ -1,4 +1,4 @@
-name: DBT Main Branch dev Tests
+name: DBT DEV test feature branch
 
 on:
   workflow_dispatch:
