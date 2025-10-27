@@ -13,7 +13,7 @@
 #       - name: print pwd
 #         run: pwd
 
-name: Update and Run dbt Project on Runner
+name:  DBT Self hosted runner check 
 
 on:
   workflow_dispatch:
