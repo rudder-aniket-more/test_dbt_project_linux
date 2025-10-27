@@ -25,7 +25,7 @@ on:
 jobs:
   update-code:
     name: Pull latest code and update dbt project
-    runs-on: self-hosted  # 👈 your EC2 runner tag
+    runs-on: runner1  # 👈 your EC2 runner tag
 
     steps:
       - name: Identify branch
