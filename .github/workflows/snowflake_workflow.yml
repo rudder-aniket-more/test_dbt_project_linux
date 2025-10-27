@@ -26,7 +26,7 @@ jobs:
           python-version: '3.11' # Use your preferred Python version
           
       - name: Install dbt and Adapter
-        run: pip install dbt-core==1.8.0 dbt-snowflake # Adjust dbt version/adapter if necessary
+        run: pip install dbt-core==1.10.13 dbt-snowflake # Adjust dbt version/adapter if necessary
 
       # --- 2. Inject Credentials (CI uses test secrets) ---
       - name: Set CI Environment Variables
